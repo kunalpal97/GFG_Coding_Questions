@@ -42,11 +42,13 @@ int main(){
     bool ans = solve(str1 , str2);
 
     if(ans){
-        cout << endl <<"It is Anagram"<<endl;
+        cout << endl <<" Both the string have same characters with same frequency. So, they are anagrams. "<<endl;
     }
     else{
-        cout <<"It is not an Anagram" <<endl;
+        cout <<" Characters in both the strings are not same, so they are not anagrams." <<endl;
     }
+
+    return 0;
 
 
 
